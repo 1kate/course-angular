@@ -1,0 +1,32 @@
+.viewport {
+    height: 200px; 
+    border: 1px solid black;
+  }
+  
+  .item {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .item:last-child{ 
+    border: none;
+  }
+mat-card-title{
+margin-bottom: 16px;
+mat-list{
+    text-align: center;
+    padding: 0;
+        mat-list-item{
+            display: inline-block;
+            width: auto;
+            cursor: pointer;
+  }
+} 
+}
+.mat-list-base .mat-list-item, .mat-list-base .mat-list-option { 
+    height: auto; 
+}
+.active {
+  color:red;
+}

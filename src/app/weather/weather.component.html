@@ -1,0 +1,8 @@
+<mat-card class="card-weather">
+    <h2 class="title">{{weather.title}}</h2>
+    <mat-grid-list cols="2">
+            <mat-grid-tile><img [src]="weather.icon" class="w-100" /></mat-grid-tile>
+            <mat-grid-tile><h2 class="temperature">{{weather.temperature}}&#176;</h2></mat-grid-tile>
+    </mat-grid-list> 
+    <p class="text-center">water: {{weather.water}}&#176;</p>
+</mat-card> 

@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="offset-md-2 col-lg-5">
+        <app-places (outputPlaces)="output($event)"></app-places>
+    </div>
+    <div class="col-lg-4">
+        <app-weather [weather]="weather"></app-weather>
+        <app-social [social]="social"></app-social>
+    </div>
+  </div>
+</div>
+
